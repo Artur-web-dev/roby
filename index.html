@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Roby</title>
+	<link rel="stylesheet" href="scss/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<div class="popup popup-menu">
+		<div class="popup__body popup-menu__body">
+			<button class="popup-menu__close">
+				<img src="img/close-btn.svg" alt="">
+			</button>
+			<ul class="popup-menu__list">
+				<li class="popup-menu__item">
+					<a class="popup-menu__link popup-menu__link_active" href="#">
+						Home
+					</a>
+				</li>
+				<li class="popup-menu__item">
+					<a class="popup-menu__link" href="#">
+						About
+					</a>
+				</li>
+				<li class="popup-menu__item">
+					<a class="popup-menu__link" href="#">
+						News
+					</a>
+				</li>
+				<li class="popup-menu__item">
+					<a class="popup-menu__link" href="#">
+						Contact
+					</a>
+				</li>
+				<li class="popup-menu__item">
+					<a class="popup-menu__link" href="#">
+						Cart (<span>0</span>)
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="popup__bg"></div>
+	</div>
+	<header class="header">
+		<div class="container header__container">
+			<div class="header__inner">
+				<div class="header-left">
+					<p class="header-left__text">A creative agency based in Helsinki.</p>
+					<a class="header-left__email" href="mailto:hello@robi.com">hello@robi.com</a>
+				</div>
+				<button class="burger-menu"><img class="burger-menu__img" src="img/burger-menu.svg" alt=""></button>
+				<div class="header-right">
+					<ul class="header-right__menu">
+						<li class="header-right__item">
+							<a class="header-right__link" href="#">Home</a>
+						</li>
+						<li class="header-right__item">
+							<a class="header-right__link" href="#">About</a>
+						</li>
+						<li class="header-right__item">
+							<a class="header-right__link" href="#">News</a>
+						</li>
+						<li class="header-right__item">
+							<a class="header-right__link" href="#">Contact</a>
+						</li>
+						<li class="header-right__item">
+							<a class="header-right__link" href="#">Cart (<span>0</span>)</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="hero">
+		<img class="hero__logo" src="img/hero-logo.png" alt="">
+		<div class="container hero__container">
+			<div class="hero__inner">
+				<img class="hero__img" src="img/hero-img.png" alt="">
+				<div class="hero__text">
+					<h1 class="hero__title">“We believe that <span>the power of design</span> helps businesses.”</h1>
+					<a class="hero__btn" href="#">Work <br>with us</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="partners">
+		<div class="contaner">
+			<div class="partners__inner">
+				<p class="partners__text">We partner with <span>forward-thinking</span> startups.</p>
+				<ul class="partners-menu">
+					<li class="partners-menu__item">
+						<img class="partners-menu__img partners-menu__img_iceberg" src="img/iceberg-img.png" alt="">
+					</li>
+					<li>
+						<img class="partners-menu__img partners-menu__img_vision" src="img/vision-img.png" alt="">
+					</li>
+					<li>
+						<img class="partners-menu__img partners-menu__img_homey" src="img/homey-img.png" alt="">
+					</li>
+					<li>
+						<img class="partners-menu__img partners-menu__img_rise" src="img/rise-img.png" alt="">
+					</li>
+					<li>
+						<img class="partners-menu__img partners-menu__img_pinpoint" src="img/pinpoint-img.png" alt="">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="agency">
+		<div class="container">
+			<div class="agency__inner">
+				<div class="agency-text">
+					<h2 class="agency-text__title">THE PERFECT <br><span>AGENCY FOR YOUR BRAND</span></h2>
+					<p class="agency-text__item">
+						We love what we do and create partnerships with our clients to ensure their digital transformation is
+						positioned for long-term success.
+					</p>
+					<p class="agency-text__item">
+						We believe that the human dimensions essential to start any successful
+						project and that this is where splendid emotional relationships between the company and people are
+						born.
+					</p>
+				</div>
+				<div class="awards">
+					<ul class="awards-menu">
+						<li class="awards-menu__item">
+							<p class="awards-menu__title">awards</p>
+							<p class="awards-menu__number_title">14</p>
+						</li>
+						<li class="awards-menu__item">
+							<span class="awards-menu__line"></span>
+						</li>
+						<li class="awards-menu__item">
+							<p class="awards-menu__text">Site of the Day</p>
+							<p class="awards-menu__number">3</p>
+						</li>
+						<li class="awards-menu__item">
+							<p class="awards-menu__text">Developer Award</p>
+							<p class="awards-menu__number">1</p>
+						</li>
+						<li class="awards-menu__item">
+							<p class="awards-menu__text">Honorable Mention</p>
+							<p class="awards-menu__number">7</p>
+						</li>
+						<li class="awards-menu__item">
+							<p class="awards-menu__text">Mobile Exelence</p>
+							<p class="awards-menu__number">3</p>
+						</li>
+					</ul>
+					<ul class="awards-menu">
+						<li class="awards-menu__item">
+							<p class="awards-menu__title">CSS Design Awards</p>
+							<p class="awards-menu__number_css">34</p>
+						</li>
+						<li class="awards-menu__item">
+							<span class="awards-menu__line"></span>
+						</li>
+						<li class="awards-menu__item">
+							<p class="awards-menu__text">UX Design Award</p>
+							<p class="awards-menu__number">10</p>
+						</li>
+						<li class="awards-menu__item">
+							<p class="awards-menu__text">UI Design Award</p>
+							<p class="awards-menu__number">4</p>
+						</li>
+						<li class="awards-menu__item">
+							<p class="awards-menu__text">Innovation Design Award</p>
+							<p class="awards-menu__number">7</p>
+						</li>
+						<li class="awards-menu__item">
+							<p class="awards-menu__text">Website of the Day</p>
+							<p class="awards-menu__number">13</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="work">
+		<div class="container">
+			<div class="work__inner">
+				<h3 class="work__title">selected <span>work</span></h3>
+				<div class="work__grid">
+					<div class="work-item">
+						<img src="img/work-img1.png" alt="">
+						<p class="work-item__title">Conference</p>
+						<p class="work-item__text">Art Direction, Design</p>
+					</div>
+					<div class="work-item">
+						<img src="img/work-img2.png" alt="">
+						<p class="work-item__title">Magazine</p>
+						<p class="work-item__text">Logo, User Interface</p>
+					</div>
+					<div class="work-item">
+						<img src="img/work-img3.png" alt="">
+						<p class="work-item__title">Ivor Application</p>
+						<p class="work-item__text">User Interface</p>
+					</div>
+					<div class="work-item">
+						<img src="img/work-img4.png" alt="">
+						<p class="work-item__title">Black Apple Watch</p>
+						<p class="work-item__text">Logo, User Interface</p>
+					</div>
+					<div class="work-item">
+						<img src="img/work-img5.png" alt="">
+						<p class="work-item__title">Flying to the moon</p>
+						<p class="work-item__text">User Experiences</p>
+					</div>
+					<div class="work-item">
+						<img src="img/work-img6.png" alt="">
+						<p class="work-item__title">Dharma Webfont</p>
+						<p class="work-item__text">Branding, Web Design</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="improve">
+		<div class="container improve__container">
+			<div class="improve__inner">
+				<img class="improve__img" src="img/improve-img.png" alt="">
+				<div class="improve__box">
+					<h4 class="improve__title">Improve <span>your brand</span> with an awesome site.</h4>
+					<p class="improve__subtitle">Comprehensive <span>Brand</span></p>
+					<p class="improve__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+						enim in eros.
+					</p>
+					<p class="improve__subtitle">web<span>presence</span></p>
+					<p class="improve__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+						enim in eros.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<div class="container reviews__container">
+			<div class="reviews__inner">
+				<h5 class="reviews__title">What <span>they</span> think</h5>
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+
+							<div class="reviews-item">
+								<p class="reviews-item__text">
+									"The public is more familiar with bad design than good design. It is, in
+									effect, conditioned to prefer bad design, because that is what it lives with."
+								</p>
+								<img class="reviews-item__img" src="img/caitlin-img.png" alt="">
+								<p class="reviews-item__name">Caitlin Ward</p>
+								<p class="reviews-item__desc">Webflow Founder</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews-item">
+								<p class="reviews-item__text">
+									"The public is more familiar with bad design than good design. It is,
+									in effect, conditioned to prefer bad design, because that is what it lives with."
+								</p>
+								<img class="reviews-item__img" src="img/paige-img.png" alt="">
+								<p class="reviews-item__name">paige brennan</p>
+								<p class="reviews-item__desc">Webflow Founder</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews-item">
+								<p class="reviews-item__text">
+									"A designer knows he has achieved perfection not when there is
+									nothing left to add, but when there is nothing left to take away."
+								</p>
+								<img class="reviews-item__img" src="img/matthew-img.png" alt="">
+								<p class="reviews-item__name">Matthew Webster</p>
+								<p class="reviews-item__desc">Webflow Founder</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews-item">
+								<p class="reviews-item__text">
+									"The public is more familiar with bad design than good design. It is,
+									in effect, conditioned to prefer bad design, because that is what it lives with."
+								</p>
+								<img class="reviews-item__img" src="img/paige-img.png" alt="">
+								<p class="reviews-item__name">paige brennan</p>
+								<p class="reviews-item__desc">Webflow Founder</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="reviews-item">
+								<p class="reviews-item__text">
+									"A designer knows he has achieved perfection not when there is
+									nothing left to add, but when there is nothing left to take away."
+								</p>
+								<img class="reviews-item__img" src="img/matthew-img.png" alt="">
+								<p class="reviews-item__name">Matthew Webster</p>
+								<p class="reviews-item__desc">Webflow Founder</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+
+
+	</section>
+	<section class="skills">
+		<div class="container skills__container">
+			<div class="skills__inner">
+				<div class="skills__text">
+					<h6 class="skills__title">Our <span>team</span> Skills</h6>
+					<ul class="skills-menu">
+						<li class="skills-menu__item">
+							<p class="skills-menu__text">Graphic Design</p>
+							<p class="skills-menu__percent">80%</p>
+						</li>
+						<li class="skills-menu__item"><span class="skills-menu__line"></span></li>
+						<li class="skills-menu__item">
+							<p class="skills-menu__text">Lead Generation</p>
+							<p class="skills-menu__percent">41%</p>
+						</li>
+						<li class="skills-menu__item"><span class="skills-menu__line skills-menu__line_lead"></span></li>
+						<li class="skills-menu__item">
+							<p class="skills-menu__text">Photoshop</p>
+							<p class="skills-menu__percent">70%</p>
+						</li>
+						<li class="skills-menu__item"><span class="skills-menu__line skills-menu__line_photoshop"></span></li>
+						<li class="skills-menu__item">
+							<p class="skills-menu__text">Illustration</p>
+							<p class="skills-menu__percent">100%</p>
+						</li>
+						<li class="skills-menu__item"><span class="skills-menu__line skills-menu__line_illustration"></span>
+						</li>
+					</ul>
+					<p class="skills__desc">* Over 8 years creating templates on Marketplace.</p>
+				</div>
+				<img class="skills__img" src="img/skills-img.png" alt="">
+			</div>
+		</div>
+	</section>
+	<section class="facts">
+		<div class="container">
+			<div class="facts__inner">
+				<p class="facts__title">fun <span>facts</span></p>
+				<ul class="facts-menu">
+					<li class="facts-menu__item">
+						<img src="img/facts-img1.svg" alt="">
+						<div class="facts-menu__text">
+							<p class="facts-menu__number">8</p>
+							<p class="facts-menu__desc"> Years on market</p>
+						</div>
+					</li>
+					<li class="facts-menu__item">
+						<img src="img/facts-img2.svg" alt="">
+						<div class="facts-menu__text">
+							<p class="facts-menu__number">110+</p>
+							<p class="facts-menu__desc">Project done</p>
+						</div>
+					</li>
+					<li class="facts-menu__item">
+						<div class="facts-menu__text">
+							<p class="facts-menu__number">15</p>
+							<p class="facts-menu__desc">Hero's member</p>
+						</div>
+					</li>
+					<li class="facts-menu__item">
+						<img src="img/facts-img3.svg" alt="">
+						<div class="facts-menu__text">
+							<p class="facts-menu__number">100+</p>
+							<p class="facts-menu__desc">Cups of coffee</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="blog">
+		<div class="container">
+			<div class="blog__inner">
+				<div class="blog-top">
+					<p class="blog__title">our <span>blog</span></p>
+					<a class="blog-top__link" href="#">View all <br>post</a>
+				</div>
+				<div class="blog-grid">
+					<a class="blog-item" href="#">
+						<img src="img/blog-img1.png" alt="">
+						<button class="blog-item__btn">Marketing</button>
+						<p class="blog-item__title">Curating a workplace that inspires all of us</p>
+						<p class="blog-item__desc">February 3, 2021</p>
+					</a>
+					<a class="blog-item" href="#">
+						<img src="img/blog-img2.png" alt="">
+						<button class="blog-item__btn">Design</button>
+						<p class="blog-item__title">Designers who changed the web with Webflow</p>
+						<p class="blog-item__desc">February 25, 2021</p>
+					</a>
+					<a class="blog-item" href="#">
+						<img src="img/blog-img3.png" alt="">
+						<button class="blog-item__btn">Code</button>
+						<p class="blog-item__title">Communication between studio departments</p>
+						<p class="blog-item__desc">March 9, 2021</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="talk">
+		<div class="container talk__container">
+			<div class="talk__inner">
+				<div class="talk__left">
+					<p class="talk__title">Let's <span>Talk</span></p>
+					<p class="talk__desc">Feel free to contact us</p>
+				</div>
+				<a class="talk__link" href="#">View on designer</a>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container footer__container">
+			<div class="footer__inner">
+				<div class="footer__top">
+					<a href="#"><img class="footer__logo" src="img/hero-logo.png" alt=""></a>
+					<ul class="footer-socials">
+						<li class="footer-socials__item">
+							<a href="#"><img class="footer-socials__img" src="img/footer-img1.png" alt=""></a>
+						</li>
+						<li class="footer-socials__item">
+							<a href="#"><img class="footer-socials__img" src="img/footer-img2.png" alt=""></a>
+						</li>
+						<li class="footer-socials__item">
+							<a href="#"><img class="footer-socials__img" src="img/footer-img3.png" alt=""></a>
+						</li>
+						<li class="footer-socials__item">
+							<a href="#"><img class="footer-socials__img" src="img/footer-img4.png" alt=""></a>
+						</li>
+						<li class="footer-socials__item">
+							<a href="#"><img class="footer-socials__img" src="img/footer-img5.png" alt=""></a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__main">
+					<div class="address">
+						<p class="address__title">Address</p>
+						<p class="address__text">14 New South Head Rd,<br>Triple Bay 3148<br> London, UK</p>
+						<a class="address__btn" href="#">Find on map</a>
+					</div>
+					<div class="sitemap">
+						<p class="sitemap__title">Sitemap</p>
+						<ul class="sitemap__menu">
+							<li class="sitemap-item">
+								<a class="sitemap-item__text" href="#">Home</a>
+							</li>
+							<li class="sitemap-item">
+								<a class="sitemap-item__text" href="#">About</a>
+							</li>
+							<li class="sitemap-item">
+								<a class="sitemap-item__text" href="#">News</a>
+							</li>
+							<li class="sitemap-item">
+								<a class="sitemap-item__text" href="#">Pricing</a>
+							</li>
+							<li class="sitemap-item">
+								<a class="sitemap-item__text" href="#">Style Guide</a>
+							</li>
+							<li class="sitemap-item">
+								<a class="sitemap-item__text" href="#">Image Licensing</a>
+							</li>
+						</ul>
+					</div>
+					<div class="contact">
+						<p class="contact__title">Contact</p>
+						<a class="contact__text" href="tel:3740213301">P: 3740 213 301</a>
+						<a class="contact__text" href="mailto:contact@robi.com">E: contact@robi.com</a>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<p class="footer__copy">
+						© This is a Deni Bozo template powered by Webflow.
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
